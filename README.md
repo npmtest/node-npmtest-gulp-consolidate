@@ -1,4 +1,7 @@
-# test coverage for  [gulp-consolidate (v0.2.0)](https://github.com/timrwood/gulp-consolidate)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-consolidate.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-consolidate) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-consolidate.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-consolidate)
+# npmtest-gulp-consolidate
+
+#### basic test coverage for  [gulp-consolidate (v0.2.0)](https://github.com/timrwood/gulp-consolidate)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-consolidate.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-consolidate) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-consolidate.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-consolidate)
+
 #### Template engine consolidation for gulp
 
 [![NPM](https://nodei.co/npm/gulp-consolidate.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-consolidate)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-consolidate/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-consolidate/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-consolidate/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-consolidate/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-consolidate/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-consolidate/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-consolidate/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-consolidate/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-consolidate/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-consolidate/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-consolidate/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-consolidate/build/coverage.html/index.html)
 
@@ -84,7 +87,8 @@
     "scripts": {
         "test": "mocha -R spec"
     },
-    "version": "0.2.0"
+    "version": "0.2.0",
+    "bin": {}
 }
 ```
 
